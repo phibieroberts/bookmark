@@ -27,6 +27,7 @@ nav ul li {
 .nav-items li a {
   text-decoration: none;
   color: black;
+  font-size: 1rem;
 }
 
 nav ul li {
@@ -75,7 +76,7 @@ button#login:hover {
   grid-gap: 1rem;
   justify-content: space-between;
   align-items: center;
-  padding: 5rem 0;
+  padding: 4rem 0;
 }
 
 .showcase-img {
@@ -88,8 +89,8 @@ button#login:hover {
 }
 
 .showcase-text p {
-  font-size: 1.2rem;
-  padding-right: 2rem;
+  font-size: 1rem;
+  padding-right:10rem;
 }
 
 .showcase-text h1 {
@@ -139,7 +140,7 @@ button {
   display: flex;
 }
 #features {
-  padding-top: 5rem;
+  padding-top: 4rem;
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -147,9 +148,9 @@ button {
 }
 #features p {
   color: grey;
-  width: 48%;
+  width: 37%;
   margin: 1rem auto;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 /* hide tab contents */
@@ -174,7 +175,7 @@ button {
 }
 
 .tabs {
-  padding-top: 3rem;
+  padding-top: 2rem;
 }
 
 .tabs p {
@@ -215,7 +216,7 @@ button {
   margin-top: 4rem;
 }
 .tab-content-container .showcase-text {
-  margin-right: 6rem;
+  /* margin-right: 6rem; */
 }
 
 .tab-content-container img {
@@ -236,7 +237,7 @@ button.more {
   text-align: center;
 }
 #download-extension {
-  padding-top: 6rem;
+  padding-top: 8rem;
   text-align: center;
 }
 
@@ -301,7 +302,7 @@ section#questions {
   width: 100%;
 }
 .frequently-asked-questions h2 {
-  font-size: 1rem;
+  font-size: 2rem;
 }
 .accordion {
   width: 60%;
@@ -549,7 +550,7 @@ footer {
     padding-right: 0;
   }
   .showcase-img .img {
-    margin-left: 1rem;
+    margin-left: 0.5rem;
     width: 100%;
     position: relative;
   }
